@@ -75,8 +75,8 @@ public class Libro {
 		public Date getFecha_Publicacion() {
 			return fecha_Publicacion;
 		}
-		public void setFecha_publicacion(Date fecha_publicacion) { ///SET
-			this.fecha_Publicacion = fecha_publicacion;
+		public void setFecha_Publicacion(Date fecha_Publicacion) { ///SET
+			this.fecha_Publicacion = fecha_Publicacion;
 		}
 		public String getDescripcion() {
 			return descripcion;
@@ -147,9 +147,9 @@ public class Libro {
 		@Override
 		public String toString() {
 			return "Libro [id_Libro=" + id_Libro + ", titulo=" + titulo + ", editorial=" + editorial + ", num_paginas="
-					+ num_Paginas + ", edicion=" + edicion + ", idioma=" + idioma + ", fecha_publicacion="
-					+ fecha_Publicacion + ", descripcion=" + descripcion + ", tipo_pasta=" + tipo_Pasta + ", isbn="
-					+ isbn + ", num_ejemplares=" + num_Ejemplares + ", portada=" + portada + ", presentacion="
+					+ num_Paginas + ", edicion=" + edicion + ", idioma=" + idioma + ", fecha_Publicacion="
+					+ fecha_Publicacion + ", descripcion=" + descripcion + ", tipo_Pasta=" + tipo_Pasta + ", isbn="
+					+ isbn + ", num_Ejemplares=" + num_Ejemplares + ", portada=" + portada + ", presentacion="
 					+ presentacion + ", precio=" + precio + ", categoria=" + categoria + ", autor=" + autor + "]";
 		}
 		
