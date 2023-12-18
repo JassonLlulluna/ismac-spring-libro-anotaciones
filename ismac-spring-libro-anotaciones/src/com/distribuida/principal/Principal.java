@@ -47,7 +47,7 @@ public class Principal {
 		libro.setNum_Paginas(1);
 		libro.setEdicion("Edicion");
 		libro.setIdioma("Español");
-		libro.setFecha_publicacion(new Date());
+		libro.setFecha_Publicacion(new Date());
 		libro.setDescripcion("Libro original don quijote");
 		libro.setTipo_Pasta("Empastado");
 		libro.setIsbn("02030");
